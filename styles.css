@@ -6,12 +6,15 @@
 
 .main_container {
   display: grid;
-  grid-template: 1fr 10fr / 2fr 10fr;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 4rem 30rem;
   gap: 1rem;
 }
 
 .leftnav{
+  display: flex;
   background-color: bisque;
+  justify-content: center;
 }
 
 .content {
@@ -20,6 +23,21 @@
 
 .header {
   background-color: blanchedalmond;
+  text-align: center;
+  font-size: 3rem;
 }
 
+p {
+  font-family: 'Franklin Gothic Medium';
+  padding: 2rem;
+}
 
+.ul_list{
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.li_item {
+  padding-bottom: 10px;
+  font-family: 'Franklin Gothic Medium';
+}

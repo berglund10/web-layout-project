@@ -10,3 +10,16 @@
   gap: 1rem;
 }
 
+.leftnav{
+  background-color: bisque;
+}
+
+.content {
+  background-color: antiquewhite;
+}
+
+.header {
+  background-color: blanchedalmond;
+}
+
+
